@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+   <body>
+       <button onclick="goBack()">Voltar</button>
+
+        <h1>Marca - {{marca[1]}}</h1>
+        <h2>Automoveis vendidos - {{marca[2]}}</h2>
+        <h3>
+            <a href = "{{ url_for('lista') }}">Lista de marcas
+        </h3>
+   </body>
+</html>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>

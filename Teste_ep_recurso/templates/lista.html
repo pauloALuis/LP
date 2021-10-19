@@ -1,0 +1,21 @@
+<button onclick="goBack()">Voltar</button>
+
+<table>
+    <tr>
+        <th>Marcas</th>
+    </tr>
+    <td>
+    {% for i in range(0, len) %}
+        <tr>
+            <td><a href = "{{ url_for('marca', id=i )}}"/>
+            {{marcas[i][1]}}</td>
+        </tr>
+    {% endfor %}
+    </td>
+</table>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
