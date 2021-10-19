@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+   <head></head>
+   <body>
+      <h3>
+         <a href = "{{ url_for('home') }}">Home Page
+      </h3>
+		
+      <h3>Disciplinas</h3>
+      
+      <table>
+            <tr>
+               <th>ID</th>
+               <th>Nome</th>
+               <th>Semestre</th>
+               <th>ECT's</th>
+               <th>Nota</th>
+            </tr>
+
+         <td>
+            {% for disciplina in disciplinas %}
+               <tr>
+                  <td>{{disciplina.id}}</td>
+                  <td>{{disciplina.disciplina}}</td>
+                  <td>{{disciplina.semestre}}</td>
+                  <td>{{disciplina.ects}}</td>
+                  <td>{{disciplina.nota}}</td>
+               </tr>
+            {% endfor %}
+         </td>
+      </table>
+      {% for image in images %}
+         <h1>{{image}}</h1>
+         <img src="{{url_for('static', filename="{{ image }}")}}" alt="{{image}}" />
+      {% endfor %}
+
+      <h3>
+         <a href = "{{ url_for('other') }}">Other Page
+      </h3>
+   </body>
+</html>

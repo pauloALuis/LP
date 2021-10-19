@@ -1,0 +1,7 @@
+nt
+Windows
+('64bit', 'WindowsPE')
+AMD64
+DESKTOP-H7O39A5
+Intel64 Family 6 Model 94 Stepping 3, GenuineIntel
+win32
