@@ -1,0 +1,12 @@
+Maquina: AMD64
+Versão: 10.0.19042
+RAM 16 GB 
+Detalhe sistema: uname_result(system='Windows', node='PauloLuis', release='10', version='10.0.19042', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+S.O: WindowsWindows-10-10.0.19042-SP0
+Processador: Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+Maquina: AMD64
+Versão: 10.0.19042
+RAM: 16 GB 
+Detalhe sistema: uname_result(system='Windows', node='PauloLuis', release='10', version='10.0.19042', machine='AMD64', processor='Intel64 Family 6 Model 158 Stepping 10, GenuineIntel')
+S.O: WindowsWindows-10-10.0.19042-SP0
+Processador: Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
